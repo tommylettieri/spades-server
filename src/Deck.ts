@@ -25,6 +25,10 @@ class Deck {
             this.cards.push(new Card(value, suit));
         }
     }
+
+    drawCard(): Card {
+        return this.cards.pop();
+    }
 }
 
 export default Deck;
