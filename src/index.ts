@@ -6,6 +6,7 @@ import Player from "./Player";
 // let card:Card = new Card(2, Suit.CLUB);
 // console.log(JSON.stringify(card, null, 2));
 let deck:Deck = new Deck();
+deck.shuffle();
 let players:Player[] = [];
 for(let i: number = 0; i < 4; i++) {
     let player:Player = new Player();

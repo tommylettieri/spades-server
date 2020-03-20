@@ -29,6 +29,15 @@ class Deck {
     drawCard(): Card {
         return this.cards.pop();
     }
+
+    shuffle() {
+        for(let i:number = 0; i < this.cards.length; i++) {
+            let randomIndex:number = Math.floor(Math.random() * this.cards.length);
+            let temp:Card = this.cards[i];
+            this.cards[i] = this.cards[randomIndex];
+            this.cards[randomIndex] = temp;
+        }
+    }
 }
 
 export default Deck;
