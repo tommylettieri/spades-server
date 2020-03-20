@@ -1,8 +1,8 @@
-import Card from "./Card";
-import Suit from "./Suit";
-import Deck from "./Deck";
-import Player from "./Player";
-import Game from "./Game";
+import Card from "./models/Card";
+import Suit from "./constants/enums/Suit";
+import Deck from "./models/Deck";
+import Player from "./models/Player";
+import Game from "./models/Game";
 
 // let card:Card = new Card(2, Suit.CLUB);
 // console.log(JSON.stringify(card, null, 2));

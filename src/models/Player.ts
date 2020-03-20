@@ -1,4 +1,3 @@
-import Suit from "./Suit";
 import Card from "./Card";
 
 class Player {

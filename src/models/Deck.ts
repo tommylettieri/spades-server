@@ -1,5 +1,5 @@
 import Card from './Card';
-import Suit from './Suit';;
+import Suit from '../constants/enums/Suit';;
 
 class Deck {
     private cards:Card[] = [];

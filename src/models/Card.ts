@@ -1,4 +1,4 @@
-import Suit from "./Suit";
+import Suit from "../constants/enums/Suit";
 
 class Card {
     private value: number;
