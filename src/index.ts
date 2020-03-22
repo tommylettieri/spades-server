@@ -3,7 +3,7 @@ import Suit from "./constants/enums/Suit";
 import Deck from "./models/Deck";
 import Player from "./models/Player";
 import Game from "./models/Game";
-
+import './Server';
 // let card:Card = new Card(2, Suit.CLUB);
 // console.log(JSON.stringify(card, null, 2));
 
